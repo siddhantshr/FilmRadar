@@ -22,7 +22,7 @@ app.get('/recommend', async (req, res) => {
         messages: [
             {
                 role: "user",
-                content: `Generate movies similar to ${movie} (4-5), GIVE title, imdbID, year, poster IN A JSON ARRAY FORMAT. do not include any other text like \`\`\`json or anything. GIVE IMDB POSTER URL ONLY`,
+                content: `Generate movies similar to ${movie} (4-5), GIVE title, imdbID, year, poster IN A JSON ARRAY FORMAT. do not include any other text like \`\`\`json or anything. POSTER URL SHOULD BE https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/960px-Placeholder_view_vector.svg.png`,
             },],
         model: "openai/gpt-oss-20b",
     })
@@ -37,7 +37,7 @@ app.get('/mood', async (req, res) => {
         messages: [
             {
                 role: "user",
-                content: `Generate movies similar to movies that fit the mood ${mood} (4-5), GIVE ONLY TITLES in a json array format along with imdbIDs. do not include any other text like \`\`\`json or anything. GIVE IMDB POSTER URL ONLY`,
+                content: `Generate movies similar to movies that fit the mood ${mood} (4-5), GIVE ONLY TITLES in a json array format along with imdbIDs. do not include any other text like \`\`\`json or anything.POSTER URL SHOULD BE https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/960px-Placeholder_view_vector.svg.png`,
             },],
         model: "openai/gpt-oss-20b",
     })

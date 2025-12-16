@@ -14,18 +14,6 @@ const App = () => {
                     <Navbar />
                     <Carousel />
                     <Hero />
-                    {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 items-stretch">
-                        <Card 
-                            title="The Dictator"
-                            description="A satirical comedy film that follows the story of a dictator who risks his life to ensure that democracy never comes to the country he so lovingly oppressed."
-                            imageUrl="/thedictator.jpg"
-                        />
-                        <Card
-                            title="Mission: Impossible - Fallout"
-                            description="Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong."
-                            imageUrl="/mitfr.jpg"
-                        />
-                    </div> */}
                     <Footer />
                 </>
             } />

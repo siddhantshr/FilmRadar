@@ -1,5 +1,6 @@
 # FilmRadar
 FilmRadar is a movie recommendation web application made with ReactJS & Express and uses OMDb API, GROQ API.
+Repo - https://github.com/siddhantshr/FilmRadar
 
 # PLEASE NOTE
 This project was created when I was on a vacation abroad and hence the code quality might not be up to the mark. Also please consider I am pretty bad at frontend dev so the UI/UX might not be the best, I used tailwindcss and flowbite for frontend.
