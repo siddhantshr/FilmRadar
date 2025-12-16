@@ -111,13 +111,6 @@ const Navbar = () => {
                                 </a>
 
                                 <a
-                                    href="#Projects"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                                >
-                                    Projects
-                                </a>
-
-                                <a
                                     href="https://github.com/siddhantshr"
                                     className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                 >
@@ -125,17 +118,10 @@ const Navbar = () => {
                                 </a>
 
                                 <a
-                                    href="https://linkedin.com/in/siddhant-sharma-660202214"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                                >
-                                    LinkedIn
-                                </a>
-
-                                <a
-                                    href="#blogs"
+                                    href="#search"
                                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                 >
-                                    Blogs
+                                    Search
                                 </a>
                             </div>
                         </div>
